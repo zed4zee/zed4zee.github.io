@@ -1,0 +1,18 @@
+---
+title: "Stay Alive"
+subtitle: José González
+description: Dawn is coming open your eyes
+author: "Abdullah Zeeshan"
+date: "2023-06-18"
+categories: [song]
+reading-time: True
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+---
+
+{{< video https://www.youtube.com/watch?v=NucJk8TxyRg >}}
+
+---

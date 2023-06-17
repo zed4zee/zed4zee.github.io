@@ -13,11 +13,11 @@ fig-cap-location: bottom
 
 **Greetings!**
 
-> This is my first post on this site and I always tend to romanticize this shit!
+This is my first post on this site and I always tend to romanticize this shit!
 
-I have created websites and blogs earlier but here I am again stuck with what to put here. Oh! Here is an idea, *"I can write a little bit about the purpose and background of this blog."* Yeah that seems like a good one. It will help me think about it as well because I have no clear clue why I am doing this at all in the first place!
+I have created websites and blogs earlier but here I am again stuck with what to put here. Oh! Here is an idea— *"I can write a little bit about the purpose and background of this blog."* Yeah that seems like a good one. It will help me think about it as well because I have no clear clue of why I am doing this at all in the first place!
 
-In case you are wondering if this is all satire, then I must say that it is not! That is how I write. I sit in front of the keyboard and *write* whatever comes to my mind.
+In case you are wondering if this is all satire, then I must say that it is not! That is how I write. I sit in front of the keyboard, write whatever comes to my mind, and edit stuff.
 
 So, let me walk you through why I created this, and in the process think about it! Ok?!
 
@@ -25,17 +25,15 @@ So, let me walk you through why I created this, and in the process think about i
  
 ## The Idea
 
-Following is the central idea.
-
-> I want to create a personal web space where I can **document** various areas of my life and *share* it with the world.
+> I want to create a personal web space where I can *document* various areas of my life and *share* it with the world.
 
 Now, why on earth would I want to do that?!
 
-To *help*!
+To help!
 
 Help who?!
 
-*Myself* and *others*.
+Myself and others.
 
 The *myself* bit is with certainty. I know that all of this will help me in the future in some way or the other.
 
@@ -73,7 +71,7 @@ When this idea occurred to me, I had a lil' chat with one of the fast.ai student
 
 I learned a lot in the process of creating and working on my earlier blog. I didn't write much though but it was a good learning experience when it comes to creating websites and publishing them.
 
-In my mind, psychologically, when I think of that blog, I do feel proud of myself but it is like this "student exercise" thingy something just for deep learning or the fast.ai course. I am not able to make my mind think beyond it. If I could, then I would have worked on that itself instead of creating this new thing and struggling to write my first post here. Psychological bs is a bitch!  
+In my mind, psychologically, when I think of that blog, I do feel proud of myself but it is like this "student exercise" thingy of the past, something just for deep learning or the fast.ai course. I am not able to make my mind think beyond it. If I could, then I would have worked on that itself instead of creating this new thing and struggling to write my first post here. Psychological bs is a bitch!  
 
 ## Why A Blog?
 
@@ -109,6 +107,8 @@ Moreover, a reader can filter out relevant posts amidst the mess based on the *c
 
 I am in my mid-20s at the moment of starting this, and if there was a list titled *"List of things I should have started earlier in my life"*, that, there would be *this* project I am starting (among many other things).
 
-If I could go back in time, I would convince and encourage my younger self to start this sooner. My younger self did start something of this sort(so maybe I would tell him to stay consistent with it). When I was 13, I was passionate about singing and had an immense love for [Nasheeds](https://en.wikipedia.org/wiki/Nasheed). I remember creating and publishing a website back then, sharing my aspirations and goals around singing. What would you expect from a teenager who has got his hands on the internet?!  
+If I could go back in time, I would convince and encourage my younger self to start this sooner. My younger self did start something of this sort(so maybe I would tell him to stay consistent with it).
+
+When I was 13, I was passionate about singing and had an immense love for [Nasheeds](https://en.wikipedia.org/wiki/Nasheed). I remember creating and publishing a website back then, sharing my aspirations and goals around singing. What would you expect from a teenager who has got his hands on the internet?!  
 
 As for my past life, what is done is done! All I plan to do is recollect some stuff from my memory and *try* to archive it here. It won't be fresh but whatever. As for my current ongoing life, I can start doing this now!

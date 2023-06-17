@@ -73,6 +73,8 @@ I learned a lot in the process of creating and working on my earlier blog. I did
 
 In my mind, psychologically, when I think of that blog, I do feel proud of myself but it is like this "student exercise" thingy of the past, something just for deep learning or the fast.ai course. I am not able to make my mind think beyond it. If I could, then I would have worked on that itself instead of creating this new thing and struggling to write my first post here. Psychological bs is a bitch!  
 
+I am still on my way to finish the course. I have decided to document about that here from now on.
+
 ## Why A Blog?
 
 Now to *document* stuff there are essentially 3 ways through which one can do it: 

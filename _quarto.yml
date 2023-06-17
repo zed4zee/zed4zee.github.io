@@ -2,15 +2,28 @@ project:
   type: website
 
 website:
+  site-url: https://zed4zee.github.io/
+  search:
+    location: navbar
+    type: overlay
   title: "Blog"
   navbar:
     right:
       - icon: github
         href: https://github.com/zed4zee
+  page-footer:
+    left:
+      - text: © 2023-present.
+  page-navigation: true
+  reader-mode: true
+  back-to-top-navigation: true
+  google-analytics: "G-JE7QJYSZVR"
 format:
   html:
     theme: cosmo
-    css: styles.css
+    include-in-header: ga_tag.html
+    toc: true
+    
 
 
 

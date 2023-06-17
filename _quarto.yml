@@ -2,11 +2,12 @@ project:
   type: website
 
 website:
-  site-url: https://zed4zee.github.io/
+  site-url: https://zed4zee.github.io
   search:
     location: navbar
     type: overlay
   title: "Blog"
+  favicon: favicon.jpg
   navbar:
     right:
       - icon: github

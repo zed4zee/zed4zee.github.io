@@ -1,30 +1,9 @@
 project:
   type: website
-
 website:
-  site-url: https://zed4zee.github.io
-  search:
-    location: navbar
-    type: overlay
-  title: "Blog"
-  favicon: favicon.jpg
-  navbar:
-    right:
-      - icon: github
-        href: https://github.com/zed4zee
-  page-footer:
-    left:
-      - text: © 2023-present.
-  page-navigation: true
-  reader-mode: true
-  back-to-top-navigation: true
-  google-analytics: "G-JE7QJYSZVR"
+  favicon: images/profile_picture.png
+  navbar: false
 format:
   html:
-    theme: cosmo
-    include-in-header: ga_tag.html
-    toc: true
-    
-
-
-
+    theme: [vapor, theme.scss]
+    css: styles.css

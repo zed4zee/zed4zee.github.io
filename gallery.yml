@@ -1,7 +1,8 @@
 - title: Data Science
   subtitle: Documenting my learning journey
-  path: https://youtube.com
   image: images/ds.jpg
+  path: https://zed4zee.github.io/learning-ai
 - title: Personal
   subtitle: A place where I don't have to be bounded by confirmity.
   image: images/personal.jpg
+  path: https://zed4zee.github.io/personal

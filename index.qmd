@@ -7,10 +7,10 @@ comments: false
 listing:
   contents: gallery.yml
   type: grid
-  fields: [title, subtitle, description, image]
+  fields: [title, subtitle, image]
   image-height: 250px
 ---
 
-A chap in his mid-20s on a voyage of self discovery.
+Proactively Curious
 
 ---

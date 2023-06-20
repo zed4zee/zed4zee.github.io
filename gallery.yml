@@ -2,6 +2,14 @@
   subtitle: Documenting my learning journey
   image: images/ai.jpg
   path: https://zed4zee.github.io/learning-ai
+- title: Python
+  subtitle: Re-learning Coding
+  image: images/coding.jpg
+  path: https://zed4zee.github.io/python
+- title: Linux
+  subtitle: Learning Linux
+  image: images/linux.jpg
+  path: https://zed4zee.github.io/linux
 - title: Personal
   subtitle: A place where I don't have to be bounded by confirmity.
   image: images/personal.jpg

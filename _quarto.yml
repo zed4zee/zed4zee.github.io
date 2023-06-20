@@ -5,5 +5,5 @@ website:
   navbar: false
 format:
   html:
-    theme: [minty, theme.scss]
+    theme: [vapor, theme.scss]
     css: styles.css

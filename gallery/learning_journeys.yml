@@ -1,0 +1,12 @@
+- title: Deep Learning
+  subtitle: Documenting my learning journey as I go throrugh the PDLC course
+  image: images/ai.jpg
+  path: https://zed4zee.github.io/learning-ai
+- title: Python
+  subtitle: Re-learning Coding
+  image: images/coding.jpg
+  path: https://zed4zee.github.io/python
+- title: Linux
+  subtitle: Learning linux, git, and all that stuff
+  image: images/linux.jpg
+  path: https://zed4zee.github.io/sc

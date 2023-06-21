@@ -5,12 +5,30 @@ about:
   image: images/profile_picture.png
 comments: false
 listing:
-  contents: gallery.yml
-  type: grid
-  fields: [title, subtitle, image]
-  image-height: 250px
+  - id: learning-journeys
+    contents: gallery/learning_journeys.yml
+    type: grid
+    fields: [title, subtitle, image]
+    image-height: 250px
+  - id: personal
+    contents: gallery/personal.yml
+    type: grid
+    fields: [title, subtitle, image]
+    image-height: 250px
 ---
 
 Proactively Curious
 
 ---
+
+## Learning Journeys
+
+:::{#learning-journeys}
+:::
+
+--- 
+
+## Personal Stuff
+
+:::{#personal}
+:::

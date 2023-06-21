@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-learning-journeys .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -76,7 +76,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-learning-journeys'] = new List('listing-learning-journeys', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-personal .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-path"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-personal'] = new List('listing-personal', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -117,9 +145,9 @@ ul.task-list li input[type="checkbox"] {
 </header><main class="content" id="quarto-document-content">
 <p>Proactively Curious</p>
 <hr>
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="learning-journeys" class="level2">
+<h2 data-anchor-id="learning-journeys">Learning Journeys</h2>
+<div id="listing-learning-journeys" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0">
 <a href="https://zed4zee.github.io/learning-ai" class="quarto-grid-link">
@@ -132,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 Deep Learning
 </h5>
 <div class="card-subtitle listing-subtitle">
-Documenting my learning journey
+Documenting my learning journey as I go throrugh the PDLC course
 </div>
 </div>
 </div>
@@ -156,7 +184,7 @@ Re-learning Coding
 </a>
 </div>
 <div class="g-col-1" data-index="2">
-<a href="https://zed4zee.github.io/linux" class="quarto-grid-link">
+<a href="https://zed4zee.github.io/sc" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img src="images/linux.jpg" class="thumbnail-image card-img" style="height: 250px;">
@@ -166,13 +194,24 @@ Re-learning Coding
 Linux
 </h5>
 <div class="card-subtitle listing-subtitle">
-Learning Linux
+Learning linux, git, and all that stuff
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<hr>
+</section>
+<section id="personal-stuff" class="level2">
+<h2 data-anchor-id="personal-stuff">Personal Stuff</h2>
+<div id="listing-personal" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
 <a href="https://zed4zee.github.io/personal" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -193,7 +232,11 @@ A place where I don’t have to be bounded by confirmity.
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main>  
+</div>
+
+
+</section>
+</main>  
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
